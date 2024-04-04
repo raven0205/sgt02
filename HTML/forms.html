@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Form Example</h2>
+        <!--input, textarea, select, button-->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br>
+        <label label="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Prefer Not to Say</option>
+        </select>
+
+        <br><br>
+        <input type="radio" name ="options" id="option1" value="option1">
+        <label for="option1">Option1</label>
+        <input type="radio" name ="options" id="option2" value="option2">
+        <label for="option2">Option2</label>
+        <input type="radio" name ="options" id="option3" value="option3">
+        <label for="option3">Option3</label>
+
+        <br><br>
+        <input type="checkbox" name ="checklist" id="check1" value="check1">
+        <label for="check1">check 1</label>
+        <input type="checkbox" name ="checklist" id="check2" value="check2">
+        <label for="check2">check 2</label>
+        <input type="checkbox" name ="checklist" id="check3" value="check3">
+        <label for="check3">check 3</label>
+
+        <br><br>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup>
+        </select>
+        <br><br>
+
+    </form>
+</body>
+</html>
